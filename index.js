@@ -7,10 +7,10 @@ form.addEventListener("submit", async (ev) => {
     const { elements } = ev.target;
 
     const data = {
-      código: elements.codigo.value,
       nome: elements.nome.value,
       tipo: elements.tipo.value,
       descrição: elements.descricao.value,
+      quantidade: elements.quantidade.value,
       fabricação: elements.fabricacao.value,
       validade: elements.validade.value,
     };
